@@ -23,8 +23,10 @@ gem 'jbuilder', '~> 2.0'
 # bundle exec rake doc:rails generates the API under doc/api.
 gem 'sdoc', '~> 0.4.0', group: :doc
 
+gem 'daemons', '1.2.6'
 gem 'selenium-webdriver', '3.0.0'
 gem 'delayed_job', '4.1.2'
+gem 'delayed_job_active_record', '4.1.1'
 
 # Use ActiveModel has_secure_password
 # gem 'bcrypt', '~> 3.1.7'
